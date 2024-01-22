@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 nav{
     z-index: 1;
     background-color: white;
@@ -95,95 +101,56 @@ text-align: left;
     text-align: left; 
 }
 
-@media screen and (max-width:461px)   {
+
+
+@media screen and (max-width: 481px){
     .hero{
-                display: block;
-                text-align: center;
-                background: #FFF9F2;
-                width: 500px;
-                /* height: 90vh; */
-                margin-top: -130px;
-        }
-     
-        .om{
-            display: block;
-            text-align: center;
-        }
-        .ss{
-            display: block;
-            gap: 250px;
-            text-align: center;
-        }
-        
-        .ff{
-            display: block;
-            gap: 250px;
-            color: #000;
-            text-align: center;
-        }
+        background: #FFF9F2;
+        display: block;
+        justify-content: center;
+        margin-top: -140px;
+        } 
 
-        nav{
-            z-index: 1;
-
-        }
-        
-        .mid{
-            width: 100%;
-        }
-        .ba{
+        .op{
             font-family: Lora;
-            font-size: 20px;
-            font-weight: small;
-            line-height: 26px;
-            letter-spacing: 0px;
-            text-align: center; 
-        }
-        .ca{
-            font-family: Lora;
-            font-size: 14px;
-            font-weight: small;
-            line-height: 26px;
+            font-size: 25px;
+            font-weight: 200;
+            /* line-height: 52px; */
             letter-spacing: 0px;
             text-align: center;
+            
+            }
+            .re{
+            font-family: Open Sans;
+            font-size: 15px;
+            font-weight: normal;
+            /* line-height: 28px; */
+            letter-spacing: 0px;
+            text-align: center;
+            
+            }
+            .headerBtn{
+                background: #6D1830;
+                color: white;
             }
 
-            .ex{
-                font-family: Lora;
-                font-size: 25px;
-                font-weight: 600;
-                line-height: 32px;
-                letter-spacing: 0px;
-                text-align: center;
-                }
-                .op{
-                    font-family: Lora;
-                    font-size: 35px;
-                    font-weight: 600;
-                    line-height: 42px;
-                    letter-spacing: 0px;
-                    text-align: center;
-                    
-                    }
-                    .re{
-                    font-family: Open Sans;
-                    font-size: 20px;
-                    font-weight: normal;
-                    line-height: 20px;
-                    letter-spacing: 0px;
-                    text-align: center;
-                    
-                    }
+            .star{
+                display: block;
+            }
+            
+            .om{
+                display: block;
+                                text-align: center;
+            }
+            .gr{
+           width: 70%;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           margin-left: 46px;
+            }
 
-                    .star{
-                        /* align-items: center;
-                        justify-content: center;
-                        text-align: center; */
-                    }
-                    img{
-                        align-items: center;
-                    }
-
-                    .ce{
-                        text-align: center;
-                    }
+            .star{
+                justify-content: center
+            }
 }
