@@ -172,23 +172,24 @@ text-align: left;
 
             .ex{
                 font-family: Lora;
-                font-size: 15px;
-                font-weight: 100;
-                line-height: 20px;
+                font-size: 35px;
+                font-weight: 900;
+                line-height: 32px;
                 letter-spacing: 0px;
-                text-align: center;
+                text-align: left;
                 }
                 
                 .ca{
                 font-family: Lora;
-                font-size: 12px;
+                font-size: 32px;
                 font-weight: small;
                 /* line-height: 32px; */
                 letter-spacing: 0px;
-                text-align: center;
+                text-align: left;
                 }
                 .sv{
-                    text-align: center; 
+                    text-align: left; 
+                    font-size: 23px;
                 }
                 .ff{
                     display: block;
