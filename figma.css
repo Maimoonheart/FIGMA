@@ -86,27 +86,44 @@ text-align: left;
 .bg{
     margin-right: 50px;
 }
+.ba{
+    font-family: Lora;
+    font-size: 26px;
+    font-weight: small;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left; 
+}
 
-@media screen and (max-width:765px) {
+@media screen and (max-width:461px)   {
     .hero{
-        background: #FFF9F2;
-        display: block;
-        /* justify-content: center; */
-        /* align-items: center; */
+                display: block;
+                text-align: center;
         }
      
         .om{
             display: block;
-          
+            text-align: center;
         }
         .ss{
             display: block;
             gap: 250px;
+            text-align: center;
         }
         
         .ff{
             display: block;
             gap: 250px;
             color: #000;
+            text-align: center;
+        }
+
+        nav{
+            z-index: 1;
+
+        }
+        
+        .mid{
+            width: 100%;
         }
 }
