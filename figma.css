@@ -83,6 +83,28 @@ letter-spacing: 0px;
 text-align: left;
 padding-right: 140px;
 }
+.ile{
+    
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.im{
+    font-family: Lora;
+    font-size: 25px;
+    font-weight: 350px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    
+    padding-top: 50px;  
+}
+
+.il{
+display: flex;
+/* margin-left: -50px; */
+gap: 320px;
+padding-right: 160px;
+}
 
 .ss{
     display: flex;
@@ -98,6 +120,8 @@ padding-right: 140px;
 }
 .bg{
     margin-right: 50px;
+    margin-left: 90px;
+    margin-top: 20px;
 }
 .ba{
     font-family: Lora;
@@ -111,7 +135,32 @@ padding-right: 140px;
 .wi{
     background: #6D1830;
     color: white;
-    /* margin-left: 60px;    */
+    
+}
+.xe{
+    font-family: Lora;
+    font-size: 25px;
+    font-weight: 350px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 50px;
+}
+.wh{
+    font-family: Lora;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-right: 30px; 
+}
+.vs{
+    font-size: 10px;
+}
+.uu{
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 
@@ -141,8 +190,7 @@ padding-right: 140px;
             letter-spacing: 0px;
             text-align: center;
             padding-right: 50px;
-            /* margin-left: -50px; */
-            }
+                      }
             .headerBtn{
                 background: #6D1830;
                 color: white;
@@ -184,30 +232,34 @@ padding-right: 140px;
 
             .ss{
                 display: block;
-                /* gap: 250px; */
+                
             }
             .as{
-                margin-top: 40px;
+                margin-top: -600px;
+            }
+            .uu{
+                margin-left: -8px;
+                margin-top: 250px;
             }
 
             .ex{
                 font-family: Lora;
                 font-size: 16px;
-                /* font-weight: 200px; */
-                line-height: 20px;
+                 line-height: 20px;
                 letter-spacing: 0px;
                 text-align: left;
                 margin-left:  20px;
+                padding-bottom: -390px;
                 }
                 
                 .ca{
                 font-family: Lora;
                 font-size: 12px;
-                /* font-weight: small; */
-                /* line-height: 32px; */
                 letter-spacing: 0px;
                 text-align: left;
                 margin-left:  20px;
+                line-height: 15px;
+                
                 }
                 .sv{
                     text-align: left; 
@@ -216,7 +268,63 @@ padding-right: 140px;
                 }
                 .ff{
                     display: block;
-                    /* gap: 250px;
-                    color: #000; */
+                    margin-top: 950px;
+                    margin-left: -37px;
+                    /* padding-right: 50px; */
+                                    }
+
+                  .bg{
+                      margin-right: 50px;
+                      margin-left: 60px;
+                      margin-top: 20px;
+                      }
+                                    /* mmm */
+                 .xe{
+                     font-family: Lora;
+                     font-size: 16px;
+                     font-weight: 350px;
+                     line-height: 30px;
+                     letter-spacing: 0px;
+                     text-align: left;
+                     padding-top: 50px;
+                     }
+                 .wh{
+                     font-family: Lora;
+                     font-size: 12px;
+                     line-height: 16px;
+                     letter-spacing: 0px;
+                     text-align: left;
+                     padding-right: 30px; 
+                     }
+                 .vs{
+                     font-size: 10px;
+                     }
+                 /* mm */
+                 .im{
+                    font-family: Lora;
+                    font-size: 16px;
+                    /* font-weight: 350px; */
+                    line-height: 30px;
+                    letter-spacing: 0px;
+                                        /* padding-top: 50px;   */
                 }
-}
+                
+                .il{
+                display: block;
+                margin-left: -50px;
+                gap: 320px;
+                 padding-right: 160px; 
+                }
+                .di{
+                    margin-left:70px;
+                    /* padding-right: 20px; */
+                    width: 100%;
+                    margin-top: -550px ;
+                }
+                .ile{
+    
+                    margin-left: 50px;
+                    margin-top: 220px;
+                }
+            }
+                    
