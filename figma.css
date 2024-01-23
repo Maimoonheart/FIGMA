@@ -104,6 +104,12 @@ text-align: left;
     text-align: left; 
 }
 
+.wi{
+    background: #6D1830;
+    color: white;
+    margin-left: -60px;   
+}
+
 
 
 @media screen and (max-width: 481px){
@@ -111,34 +117,45 @@ text-align: left;
         background: #FFF9F2;
         display: block;
         justify-content: center;
-        margin-top: -138px;
+        margin-top: -140px;
         } 
 
         .op{
             font-family: Lora;
-            font-size: 35px;
-            font-weight: 200;
-            /* line-height: 52px; */
-            letter-spacing: 0px;
+            font-size: 25px;
+            font-weight: 200px;
+            line-height: 32px;
+            /* letter-spacing: 0px; */
             text-align: center;
+            padding-top: 50px;
+            padding-right: 50px;
             
             }
             .re{
             font-family: Open Sans;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: normal;
             /* line-height: 28px; */
             letter-spacing: 0px;
             text-align: center;
-            
+            padding-right: 50px;
             }
             .headerBtn{
                 background: #6D1830;
                 color: white;
+                margin-left: -60px;
+                display: none;
+            }
+
+            .wi{
+                background: #6D1830;
+                color: white;
+                margin-left: -60px;   
             }
 
             .star{
                 display: block;
+                padding-right: 50px;
             }
             
             .om{
@@ -172,9 +189,9 @@ text-align: left;
 
             .ex{
                 font-family: Lora;
-                font-size: 35px;
-                font-weight: 900;
-                line-height: 32px;
+                font-size: 16px;
+                /* font-weight: 200px; */
+                line-height: 20px;
                 letter-spacing: 0px;
                 text-align: left;
                 margin-left:  20px;
@@ -182,8 +199,8 @@ text-align: left;
                 
                 .ca{
                 font-family: Lora;
-                font-size: 32px;
-                font-weight: small;
+                font-size: 12px;
+                /* font-weight: small; */
                 /* line-height: 32px; */
                 letter-spacing: 0px;
                 text-align: left;
@@ -191,7 +208,7 @@ text-align: left;
                 }
                 .sv{
                     text-align: left; 
-                    font-size: 23px;
+                    font-size: 10px;
                     margin-left:  20px;
                 }
                 .ff{
