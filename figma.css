@@ -22,21 +22,21 @@ nav{
 
 .op{
 font-family: Lora;
-font-size: 45px;
-font-weight: 600;
-line-height: 52px;
+font-size: 35px;
+font-weight: 300px;
+line-height: 42px;
 letter-spacing: 0px;
 text-align: left;
-
+padding-right: 220px;
 }
 .re{
 font-family: Open Sans;
-font-size: 30px;
+font-size: 20px;
 font-weight: normal;
 line-height: 28px;
 letter-spacing: 0px;
 text-align: left;
-
+padding-right: 220px;
 }
 
 .ff{
@@ -49,7 +49,7 @@ text-align: left;
 }
 
 .po{
-    width: 900px;
+    width: 700px;
 }
 
 .cl{
@@ -64,26 +64,30 @@ letter-spacing: 0.5px;
 
 .ex{
 font-family: Lora;
-font-size: 32px;
-font-weight: 600;
-line-height: 40px;
+font-size: 25px;
+font-weight: 350px;
+line-height: 30px;
 letter-spacing: 0px;
 text-align: left;
+margin-right: 60px;
+padding-right: 50px;
+padding-top: 50px;
 }
 
 .ca{
 font-family: Lora;
-font-size: 20px;
+font-size: 18px;
 font-weight: small;
-line-height: 32px;
+line-height: 28px;
 letter-spacing: 0px;
 text-align: left;
+padding-right: 140px;
 }
 
 .ss{
     display: flex;
     gap: 250px;
-}
+    }
 .as{
     margin-top: 40px;
 }
@@ -107,7 +111,7 @@ text-align: left;
 .wi{
     background: #6D1830;
     color: white;
-    margin-left: -60px;   
+    /* margin-left: 60px;    */
 }
 
 
@@ -122,10 +126,9 @@ text-align: left;
 
         .op{
             font-family: Lora;
-            font-size: 25px;
+            font-size: 29px;
             font-weight: 200px;
             line-height: 32px;
-            /* letter-spacing: 0px; */
             text-align: center;
             padding-top: 50px;
             padding-right: 50px;
@@ -133,12 +136,12 @@ text-align: left;
             }
             .re{
             font-family: Open Sans;
-            font-size: 20px;
+            font-size: 17px;
             font-weight: normal;
-            /* line-height: 28px; */
             letter-spacing: 0px;
             text-align: center;
             padding-right: 50px;
+            /* margin-left: -50px; */
             }
             .headerBtn{
                 background: #6D1830;
@@ -159,8 +162,8 @@ text-align: left;
             }
             
             .om{
-                display: block;
-                                text-align: center;
+             display: block;
+             text-align: center;
             }
             .gr{
            width: 70%;
